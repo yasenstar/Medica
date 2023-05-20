@@ -29,6 +29,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#九香虫 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#九香虫">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#乳穴水 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#乳穴水">
@@ -141,10 +149,59 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂房"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂房 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂房">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#夏冰 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#夏冰">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#夹蝶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#夹蝶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
     </owl:Class>
     
 
@@ -185,6 +242,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#山岩泉水">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#斑蝥 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#斑蝥">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
     </owl:Class>
     
 
@@ -237,6 +302,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#桑螵蛸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#桑螵蛸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#螳螂"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#梅雨水 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#梅雨水">
@@ -245,10 +318,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#樗鸡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#樗鸡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水晶 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水晶">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#金石部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水蛭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水蛭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
     </owl:Class>
     
 
@@ -273,6 +362,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#流水">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海参 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海参">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
     </owl:Class>
     
 
@@ -413,10 +510,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白僵蚕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白僵蚕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白石英 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白石英">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#金石部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白颈蚯蚓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白颈蚯蚓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚯蚓"/>
     </owl:Class>
     
 
@@ -493,6 +606,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#艺翁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#艺翁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#节气水 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#节气水">
@@ -509,6 +630,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#芫青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#芫青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#茧卤汁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#茧卤汁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药材 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药材"/>
@@ -519,6 +656,238 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕茧 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕茧">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕蛹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕蛹">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕蜕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕蜕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕连 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕连">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚯蚓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚯蚓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚱蜢 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚱蜢">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚱蝉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚱蝉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛙 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛙">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆肝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆肝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆脑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆脑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛴螬 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛴螬">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜈蚣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜈蚣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗牛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗牛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗牛壳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗牛壳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗牛"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜘蛛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜘蛛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜚蠊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜚蠊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜂子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜂子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜣螂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜣螂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜻蛉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜻蛉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝉蜕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝉蜕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝼蛄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝼蛄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#螳螂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#螳螂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
     </owl:Class>
     
 
@@ -668,6 +1037,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#雪蚕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#雪蚕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#雹 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#雹">
@@ -680,6 +1057,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#露水">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#露蜂房 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#露蜂房">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#青蚨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#青蚨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虫部"/>
     </owl:Class>
     
 
@@ -752,6 +1145,44 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#雹"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#露水"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#顺流水"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#九香虫"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#土蜂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#夹蝶"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#斑蝥"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#樗鸡"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水蛭"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海参"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#艺翁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#芫青"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚯蚓"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚱蜢"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚱蝉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛙"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛴螬"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜈蚣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗牛"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜘蛛"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜚蠊"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜜蜡"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜣螂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜻蛉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝉蜕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝎"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蝼蛄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#螳螂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#雪蚕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#露蜂房"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#青蚨"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -842,6 +1273,25 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#生银"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#银屑"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#银箔"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白僵蚕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#茧卤汁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕茧"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕蛹"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕蜕"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚕连"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆肝"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆胆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蟆脑"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
