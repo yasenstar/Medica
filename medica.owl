@@ -469,9 +469,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类） -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）">
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药材"/>
     </owl:Class>
     
@@ -3992,7 +3992,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水龟 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#水龟">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -4210,7 +4210,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海月 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海月">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -4282,7 +4282,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海蛤 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海蛤">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -4290,7 +4290,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海蛳 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海蛳">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -4298,7 +4298,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海螺 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#海螺">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -4402,7 +4402,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#淡菜 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#淡菜">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -4548,7 +4548,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#灵龟 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#灵龟">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -4996,7 +4996,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#牡蛎 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#牡蛎">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -6305,7 +6305,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#田螺 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#田螺">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -6744,7 +6744,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#真珠 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#真珠">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -6768,7 +6768,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#石决明 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#石决明">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -6946,7 +6946,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦龟 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦龟">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -7374,7 +7374,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#紫贝 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#紫贝">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -7414,7 +7414,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#纳鳖 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#纳鳖">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -7439,7 +7439,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#绿毛龟 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#绿毛龟">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -7987,7 +7987,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#能鳖 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#能鳖">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -9509,7 +9509,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚌 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚌">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -9589,7 +9589,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚬 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蚬">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -9686,7 +9686,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蜊 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蛤蜊">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -9808,7 +9808,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗赢 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蜗赢">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -9969,7 +9969,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蟹 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蟹">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -10359,7 +10359,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#贝子 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#贝子">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -10465,7 +10465,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#车渠 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#车渠">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -10481,7 +10481,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#车螯 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#车螯">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -11481,7 +11481,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#马刀 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#马刀">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -11980,7 +11980,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#魁蛤 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#魁蛤">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -12391,7 +12391,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#鳖 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#鳖">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
@@ -14016,7 +14016,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#鼋（大鳖） -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#鼋（大鳖）">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部（龟鳖类）"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
     </owl:Class>
     
 
