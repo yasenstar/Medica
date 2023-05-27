@@ -14570,19 +14570,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆根 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#草部"/>
-        <名词解释>秦蜀州郡多有生长。根长2、3尺左右。独茎或成丛生长，枝干距离地面2、3寸。其叶像羊齿的形状，又似蒺藜的苗。</名词解释>
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆根">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆（黄芪）"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆根 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆（黄芪） -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆根">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆（黄芪）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#草部"/>
+        <名词解释>秦蜀州郡多有生长。根长2、3尺左右。独茎或成丛生长，枝干距离地面2、3寸。其叶像羊齿的形状，又似蒺藜的苗。7月中旬开黄紫色的花。它的果实叫作荚子，长1寸左右。8月中旬开挖它的根，其皮柔韧折之如绵，叫做绵黄耆。它有几种，有白水耆、赤水耆、木耆，功用都差不多，但力却比不上白水耆，木耆短且纹理横生。现在的人多用苜蓿根来充当黄耆，折皮也似绵，颇能乱真，但苜蓿坚硬松脆，黄耆很柔韧，皮呈微黄褐色，肉为白色。
+李时珍说：黄耆叶似槐叶但稍微要尖小些，又似蒺藜叶但略微要宽大些，为青白色。开黄紫色的花，大小如槐花。结小尖角，长约1寸。根长2、3尺，以紧实如箭干的为好。嫩苗也可以食用。收取它的籽，在10月下种，如种菜法也可以。</名词解释>
     </owl:Class>
     
 
@@ -15218,7 +15219,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#鸡冠"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄精"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆（黄芪）"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄艽"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#龙胆"/>
