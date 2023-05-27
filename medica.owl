@@ -196,40 +196,28 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#上吐下泻">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用人参、黄连各1钱，水煎，细细呷服。</药方描述>
+        <rdfs:subClassOf rdf:nodeID="genid7"/>
+        <rdfs:subClassOf rdf:nodeID="genid9"/>
+        <药方描述>用人参、黄连各1钱，水煎，细细呷服。</药方描述>
     </owl:Class>
+    <owl:Restriction rdf:nodeID="genid7">
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid9">
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
+    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#上吐下泻"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:nodeID="genid9"/>
         <用量>1钱</用量>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#上吐下泻"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:nodeID="genid7"/>
         <用量>1钱</用量>
     </owl:Axiom>
     
@@ -589,7 +577,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乃血入肺窍，危症。苏木煎汤，调人参末3钱，服用有奇效。</药方描述>
+        <药方描述>乃血入肺窍，危症。苏木煎汤，调人参末3钱，服用有奇效。</药方描述>
     </owl:Class>
     
 
@@ -622,7 +610,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#酒"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人参1两，紫苏半两，以童尿酒水3合煎服。</药方描述>
+        <药方描述>人参1两，紫苏半两，以童尿酒水3合煎服。</药方描述>
     </owl:Class>
     
 
@@ -631,7 +619,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#草部"/>
-        <名词解释 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">又叫神草、地精。生长在上党的山谷和辽东等地。在2月、4月、8月上旬挖采它的根，用竹刀刮去泥土，然后晒干，不能见风。</名词解释>
+        <名词解释>又叫神草、地精。生长在上党的山谷和辽东等地。在2月、4月、8月上旬挖采它的根，用竹刀刮去泥土，然后晒干，不能见风。</名词解释>
     </owl:Class>
     
 
@@ -658,7 +646,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药效治疗 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">主补五脏，安精神，安魂魄，止惊悸，除邪气，耳聪明目、轻身，使人肌肤润泽，精力旺盛，不易衰老开心益智。久服可轻身延年。又治五劳七伤，虚损痰弱，保中守神，消痰，治慢性肺病，体虚，梦多而杂乱，肺脾元气不足，短气少气，止渴，生津液。治土火旺的病，就适宜用有凉薄之气的生人参，来泻火补土，这是纯用它的气。脾虚肺怯的病，则适宜用有甘温之味的熟参，以补土生金，这是纯用它的味。</药效治疗>
+        <药效治疗>主补五脏，安精神，安魂魄，止惊悸，除邪气，耳聪明目、轻身，使人肌肤润泽，精力旺盛，不易衰老开心益智。久服可轻身延年。又治五劳七伤，虚损痰弱，保中守神，消痰，治慢性肺病，体虚，梦多而杂乱，肺脾元气不足，短气少气，止渴，生津液。治土火旺的病，就适宜用有凉薄之气的生人参，来泻火补土，这是纯用它的气。脾虚肺怯的病，则适宜用有甘温之味的熟参，以补土生金，这是纯用它的味。</药效治疗>
     </owl:Class>
     
 
@@ -667,7 +655,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参膏">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
-        <名词解释 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用人参10两细切，以活水20盏浸透，装入银石器内，桑柴火缓缓煎取10盏，滤汁后放在一边。在滓中再加水10盏，煎取5盏，合煎成膏，用瓶子收藏，随病做汤使用。</名词解释>
+        <名词解释>用人参10两细切，以活水20盏浸透，装入银石器内，桑柴火缓缓煎取10盏，滤汁后放在一边。在滓中再加水10盏，煎取5盏，合煎成膏，用瓶子收藏，随病做汤使用。</名词解释>
     </owl:Class>
     
 
@@ -818,7 +806,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用甘草二两，蜜水炙过，加水二升，煮成一升半。每服五合，一天服两次。此方名&quot;甘草汤&quot;。</药方描述>
+        <药方描述>用甘草二两，蜜水炙过，加水二升，煮成一升半。每服五合，一天服两次。此方名&quot;甘草汤&quot;。</药方描述>
     </owl:Class>
     
 
@@ -882,7 +870,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用大甘草头煎汤，每夜临睡前服之。</药方描述>
+        <药方描述>用大甘草头煎汤，每夜临睡前服之。</药方描述>
     </owl:Class>
     
 
@@ -1350,7 +1338,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">将人参制成末，用鸡蛋清调服1钱，每日服三次，有效。</药方描述>
+        <药方描述>将人参制成末，用鸡蛋清调服1钱，每日服三次，有效。</药方描述>
     </owl:Class>
     
 
@@ -1773,7 +1761,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用甘草、枳壳各一钱，水半碗煎服，</药方描述>
+        <药方描述>用甘草、枳壳各一钱，水半碗煎服，</药方描述>
     </owl:Class>
     
 
@@ -1794,7 +1782,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用甘草一指长，猪胆汁炙过，研细。以米汁调少许灌下。</药方描述>
+        <药方描述>用甘草一指长，猪胆汁炙过，研细。以米汁调少许灌下。</药方描述>
     </owl:Class>
     
 
@@ -1962,7 +1950,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用甘草一两二钱，加水六合，煎成二合。一岁儿一天服尽。</药方描述>
+        <药方描述>用甘草一两二钱，加水六合，煎成二合。一岁儿一天服尽。</药方描述>
     </owl:Class>
     
 
@@ -1977,7 +1965,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用甘草三两，炙焦，研细，和蜜成丸。每服五丸，温水送下。一天服二次。</药方描述>
+        <药方描述>用甘草三两，炙焦，研细，和蜜成丸。每服五丸，温水送下。一天服二次。</药方描述>
     </owl:Class>
     
 
@@ -1998,7 +1986,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用甘草二钱半，煎服，令吐痰涎，再以乳汁点儿口中。</药方描述>
+        <药方描述>用甘草二钱半，煎服，令吐痰涎，再以乳汁点儿口中。</药方描述>
     </owl:Class>
     
 
@@ -2019,7 +2007,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用甘草二两，在猪胆汁中浸五天，取出炙后研细，和蜜做成丸子，如绿豆大。每服十丸，饭后服，薄荷汤送下。此方名&quot;凉膈丸&quot;。</药方描述>
+        <药方描述>用甘草二两，在猪胆汁中浸五天，取出炙后研细，和蜜做成丸子，如绿豆大。每服十丸，饭后服，薄荷汤送下。此方名&quot;凉膈丸&quot;。</药方描述>
     </owl:Class>
     
 
@@ -6613,9 +6601,9 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <名词解释 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">也称蜜甘、蜜草、美草、灵通、国老。
+        <名词解释>也称蜜甘、蜜草、美草、灵通、国老。
 弘景说，此草最为众药之主，经方常用，犹如香中之沉香。国老即帝师，虽非君而为君所宗，是以其能安和草石而解诸毒之故。权说诸药中甘草为君，治七十二种乳石毒，解一千二百般草木毒，调和众药有功，故有国老之号。</名词解释>
-        <药效治疗 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">五脏六腑寒热邪气，坚筋骨，长肌肉，倍气力，敷金疮，久服轻身延年。
+        <药效治疗>五脏六腑寒热邪气，坚筋骨，长肌肉，倍气力，敷金疮，久服轻身延年。
 温中下气，烦满短气，伤脏咳嗽，止渴，通经脉，利血气，解白药毒，为九土之精，安和七十二种石，一千二百种草。
 主腹中冷痛，治惊痫，除腹胀满，补益五脏，养肾气内伤，令人阴不痿，主妇人血沥腰痛，凡虚而多热者加用之。
 安魂安魄，补五劳七伤，一切虚损，惊悸烦闷健忘，通九窍，利百脉，益精养气，壮筋骨。
@@ -6631,7 +6619,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草头">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草梢"/>
-        <药效治疗 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">生用能行足厥阴、阳明二经污浊之血，消肿导毒。主痈肿，宜入吐药，</药效治疗>
+        <药效治疗>生用能行足厥阴、阳明二经污浊之血，消肿导毒。主痈肿，宜入吐药，</药效治疗>
     </owl:Class>
     
 
@@ -6640,7 +6628,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草梢">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
-        <药效治疗 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">生用治胸中积热，去茎中痛，加酒煮玄胡索、苦楝子尤妙。</药效治疗>
+        <药效治疗>生用治胸中积热，去茎中痛，加酒煮玄胡索、苦楝子尤妙。</药效治疗>
     </owl:Class>
     
 
@@ -7474,7 +7462,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#龙齿"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一人睡觉，自觉身外有身，与自身一样没有别，但不说话，其属怪诞。人睡觉时魂归于肝，这是由于肝虚邪气侵入，造成魂不归舍的原因，所以病名叫离魂。用人参、龙齿各1钱，赤茯苓8分，水1盏，煎到半盏水时，撒上朱砂末1钱，每晚睡时服。十服后，真身气爽，假身即去。</药方描述>
+        <药方描述>一人睡觉，自觉身外有身，与自身一样没有别，但不说话，其属怪诞。人睡觉时魂归于肝，这是由于肝虚邪气侵入，造成魂不归舍的原因，所以病名叫离魂。用人参、龙齿各1钱，赤茯苓8分，水1盏，煎到半盏水时，撒上朱砂末1钱，每晚睡时服。十服后，真身气爽，假身即去。</药方描述>
     </owl:Class>
     
 
@@ -8459,7 +8447,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#阿胶"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用炒甘草二两、桔梗（淘米水浸一夜）一两，加入阿胶半斤。
+        <药方描述>用炒甘草二两、桔梗（淘米水浸一夜）一两，加入阿胶半斤。
 每服五钱，水煎服。</药方描述>
     </owl:Class>
     
@@ -8481,7 +8469,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#生姜"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药方描述 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">用炙甘草四两、炮干姜二两，水三升，煮成一半，分几次服。此方名&quot;甘草干姜汤&quot;。</药方描述>
+        <药方描述>用炙甘草四两、炮干姜二两，水三升，煮成一半，分几次服。此方名&quot;甘草干姜汤&quot;。</药方描述>
     </owl:Class>
     
 
@@ -11608,7 +11596,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#长松">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#草部"/>
-        <名词解释 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">生古松下，根的颜色如荠苨，长三五寸，有点像人参，清香可爱。</名词解释>
+        <名词解释>生古松下，根的颜色如荠苨，长三五寸，有点像人参，清香可爱。</名词解释>
     </owl:Class>
     
 
@@ -11668,7 +11656,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#麦冬"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <药效治疗 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一个7岁小孩，闻雷即昏倒不知人事，这是气怯造成的。服人参、当归、麦冬各2两，五味子5钱为膏，服完1斤，自此以后听到雷声仍神态自若。</药效治疗>
+        <药效治疗>一个7岁小孩，闻雷即昏倒不知人事，这是气怯造成的。服人参、当归、麦冬各2两，五味子5钱为膏，服完1斤，自此以后听到雷声仍神态自若。</药效治疗>
     </owl:Class>
     
 
@@ -14574,6 +14562,24 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆根">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄耆（黄芪）"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味甘"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性温"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -17243,5 +17249,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
