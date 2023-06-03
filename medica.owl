@@ -286,6 +286,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#中蛊毒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#中蛊毒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#桔梗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#猪肝"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#猪肺"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <名词解释>治中蛊毒下血如鸡鸭肝片，昼夜出血无度，四脏皆损，唯心未毁，或鼻破将死</名词解释>
+        <药方描述>苦桔梗制成末，以酒送服一方寸匕，每日服3次。
+不能下药的患者，用物拗口灌。
+7日内，适当吃些猪肝肺来补养。</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#中风口噤，不省人事 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#中风口噤，不省人事">
@@ -1595,24 +1625,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#气味"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性寒"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2336,6 +2348,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#小儿受惊，死不能言 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#小儿受惊，死不能言">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#小儿相关"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#桔梗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#米汤"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#麝脐香"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>桔梗烧研3钱，米汤送服，再吞麝香少许</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#小儿尿中带血 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#小儿尿中带血">
@@ -2943,6 +2982,21 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#扁豆藤">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#扁豆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#打击淤血在胸腹中，久不消，时发痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#打击淤血在胸腹中，久不消，时发痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#桔梗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>桔梗为末，和饭吃一刀圭。</药方描述>
     </owl:Class>
     
 
@@ -8484,6 +8538,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#米汤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#米汤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#稻米"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#米泔 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#米泔">
@@ -11538,6 +11600,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#衄血上止">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#桔梗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#犀角"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <药方描述>桔梗制成末，用水送服一方寸匕，1日4次。或加犀角屑，更治吐血下血。</药方描述>
     </owl:Class>
     
@@ -15450,6 +15524,26 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#草部"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性平"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <名词解释>也称腐肠、空肠、内虚、妒妇、经芩、黄文、印头、苦督邮。内实者名字芩、条芩、尾芩、尾鼠芩。</名词解释>
+        <药效治疗>诸热黄疸，肠泻痢，逐水，下血闭，恶疮疽蚀火疡。疗痰热胃中热，小腹绞痛，消谷，利小肠。女子血闭淋露下血，小儿腹痛。治热毒骨蒸，寒热往来，肠胃不利，破痈气，治五淋，令人宣畅，去关节烦闷，解热渴。下气，主天行热疾，丁疮排脓，治乳痈发背。凉心，治肺中湿热，泻肺火上逆，疗上热，目中肿赤，淤血壅盛，上部积血，补膀胱寒水，安胎，养阴退阳。治风热湿热头疼，奔豚热痛，火咳肺痿喉腥，诸失血。</药效治疗>
     </owl:Class>
     
 
