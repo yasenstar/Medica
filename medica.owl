@@ -4717,6 +4717,35 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#果部"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辛"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性温"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <名词解释>树高几米，茎上有刺。
+夏初开百花，六、七月结果，到十一、十二月才熟黄色。
+扒皮后，内分几瓣，瓣中有核。
+内瓣甘润香美，是果中的贵品</名词解释>
+        <药效治疗>甘的润肺，酸的止消渴，开胃，除胸中膈气。都不可经常吃，否则恋瞩生痰，滞肺气，吉同蟹吃，会使人患软痈。</药效治疗>
     </owl:Class>
     
 
@@ -13242,6 +13271,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#马">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#畜类"/>
+        <名词解释>马怀孕十二月而生。马的年龄根据牙齿的情况加以识别。</名词解释>
     </owl:Class>
     
 
@@ -15552,6 +15582,35 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄橘皮">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辛"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性温"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药效治疗>主治胸中结块结热逆气，利水谷，下气，治呕咳，治气冲胸中、吐逆霍乱，疗脾不能消谷，止泄，除膀胱留热停水、五淋，利小便，去寸白虫。
+清痰涎，治上气咳嗽，开胃，治气痢，胸腹结块肿痛。
+疗呕秽反胃嘈杂，时吐清水，痰痞疾疟，大肠秘涩，妇女乳痈。
+久服去臭，下气通神。
+做调料，解鱼腥毒。</药效治疗>
     </owl:Class>
     
 
@@ -16181,6 +16240,20 @@
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#龙齿">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#龙"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>中国医学，《本草纲目》</rdfs:label>
+    </rdf:Description>
     
 
 
