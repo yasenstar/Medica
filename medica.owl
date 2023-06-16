@@ -196,28 +196,40 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#上吐下泻">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
-        <rdfs:subClassOf rdf:nodeID="genid7"/>
-        <rdfs:subClassOf rdf:nodeID="genid9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <药方描述>用人参、黄连各1钱，水煎，细细呷服。</药方描述>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7">
-        <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
-        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid9">
-        <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
-        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
-    </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#上吐下泻"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid9"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
         <用量>1钱</用量>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#上吐下泻"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#人参"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
         <用量>1钱</用量>
     </owl:Axiom>
     
@@ -1637,6 +1649,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#气味"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味酸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味酸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#气味"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#咳血 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#咳血">
@@ -2621,6 +2649,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#山柑皮">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#柑"/>
+        <药效治疗>主治咽喉肿痛，有效。</药效治疗>
     </owl:Class>
     
 
@@ -2745,6 +2774,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#嵌甲作痛，不能走路 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#嵌甲作痛，不能走路">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#虎骨"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#青橘皮"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄橘皮"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用浓煎陈皮浸泡很久，甲和肉自己便分开，轻轻剪去甲，并用虎骨末敷上即可</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#川芎 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#川芎">
@@ -2861,7 +2917,7 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#心经实热 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#心经实热">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#心脏相关"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
@@ -2869,6 +2925,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <药方描述>用黄连七钱，加水一碗半，煎成一碗，饭后过一阵（食远）温服。小儿减量。</药方描述>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#心脏相关 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#心脏相关">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
     </owl:Class>
     
 
@@ -3834,6 +3898,29 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#柑">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#果部"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味甘"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性寒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <名词解释>就是南方果，它的树与橘没有区别，只是刺少些。
+柑皮比橘皮稍厚颜色稍黄，纹理稍粗且味不苦。
+柑不好保存，容易腐烂。
+柑树比橘怕冰雪，这些是柑、橘的区别。</名词解释>
+        <药效治疗>利肠胃热毒，解丹石，止暴渴，利小便。</药效治疗>
     </owl:Class>
     
 
@@ -3850,6 +3937,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#柑核">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#柑"/>
+        <药效治疗>做涂脸药。</药效治疗>
     </owl:Class>
     
 
@@ -3858,6 +3946,31 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#柑皮">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#柑"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味甘"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辣"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性寒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药效治疗>主治下气调中。皮去白后焙研成末，加盐作汤喝，可解酒毒及酒喝。</药效治疗>
     </owl:Class>
     
 
@@ -4720,19 +4833,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味甘"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辛"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性温"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味酸"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4754,6 +4861,25 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘叶">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性平"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药效治疗>主治胸膈逆气，入厥阴，行肝气，消肿散毒，乳痈胁痛，还可行经</药效治疗>
     </owl:Class>
     
 
@@ -4762,6 +4888,26 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘核">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性平"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药效治疗>主治腰痛，膀胱气痛、肾冷，将橘核炒研，每次温酒送服一钱，或用酒煎服。
+治酒风鼻赤，则炒研，每次服一钱，胡桃肉一个，擂烂用酒送服，以病情而定量。</药效治疗>
     </owl:Class>
     
 
@@ -4770,6 +4916,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘瓣上筋膜">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘"/>
+        <药效治疗>主治口渴、吐酒。炒熟后煎汤喝，很有效</药效治疗>
     </owl:Class>
     
 
@@ -4778,6 +4925,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#果部"/>
+        <名词解释>产于南方，果实像柚而香，也有一种味很臭。柚是柑类中最大的，黄得早而不好收藏；橙是橘类中最大的，熟得晚能存放很久。它们都有大小二种。橙树的枝很高，叶不太像橘树叶，也有刺。</名词解释>
+        <药效治疗>行风气，疗颈淋巴结核核甲状腺肿大，杀鱼蟹毒。洗去酸水，切碎和盐煎后贮食，止恶心，去胃中浮风恶气。吃多了会伤肝气，发虚热。与肉一起吃，会使人头眩恶心。</药效治疗>
     </owl:Class>
     
 
@@ -4787,6 +4936,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙核">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙皮"/>
+        <药效治疗>浸湿研后，夜夜涂可治面斑粉刺。</药效治疗>
     </owl:Class>
     
 
@@ -4795,6 +4945,31 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙皮">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辛"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性温"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药效治疗>作酱、醋很香美，食后可散肠胃恶气，消食下气，去胃中浮风气。和盐贮食，止恶心，解酒病。加糖做的橙丁，甜美，而能消痰下气，利膈宽中，解酒。</药效治疗>
     </owl:Class>
     
 
@@ -8503,6 +8678,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#突发性心痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#突发性心痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#心脏相关"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#青橘皮"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄橘皮"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>倘若在旅途中，用药不便，只要用橘皮去白后，煎水喝，甚好</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#立春清明二节气贮水 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#立春清明二节气贮水">
@@ -9318,6 +9514,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺痈咳脓血 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺痈咳脓血">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺部相关"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘叶"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>绿橘叶洗净后，捣绞出一盏汁，服下，吐出脓血即愈。</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺痿 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺痿">
@@ -9366,6 +9577,27 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺部相关">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肾经气滞腰痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肾经气滞腰痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#杜仲"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘核"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>橘核、杜仲各一两，炒后研成末，每次吃二钱，盐酒送服</药方描述>
     </owl:Class>
     
 
@@ -12659,6 +12891,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#闪挫腰痛难忍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#闪挫腰痛难忍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙核"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>橙核三钱炒研后，用酒送服，即愈。</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#闻雷即昏 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#闻雷即昏">
@@ -13055,6 +13302,31 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#青橘皮">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橘"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味辛"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性温"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药效治疗>主治气滞，消食，破积结和膈气，去下焦部等各种湿，治左胁肝经积气。小腹疝痛，消乳肿，疏肝胆，泻肺气。</药效治疗>
     </owl:Class>
     
 
@@ -13255,6 +13527,45 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#馒头">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#香橙汤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#香橙汤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#橙皮"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#檀"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#猪肠"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#生姜"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>宽中下气，消酒。用橙皮二斤切成片，生姜五两切焙擂烂，加烤过的甘草末一两，檀木半两，和后作成小饼，用加盐的肥肠送下。</药方描述>
     </owl:Class>
     
 
@@ -18437,5 +18748,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
