@@ -3979,6 +3979,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#柚">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#果部"/>
+        <名词解释>李时珍说：柚的树、叶似橙。它的果有大小两种：小的像柑核橙；大的像瓜，甚至有围大超过一尺的，也属橙类。它的皮很厚，但味道甘美，它的肉有甜有酸。</名词解释>
+        <药效治疗>主消食，解酒毒，治饮酒的人口臭，去肠胃恶气，疗妊妇厌食，口淡。</药效治疗>
     </owl:Class>
     
 
