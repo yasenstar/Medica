@@ -710,6 +710,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#产后血渴，饮水不止 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#产后血渴，饮水不止">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#妇产相关"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#麦门冬"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用黄芩、麦门冬，等分为末，水煎，温服</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#产后血运 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#产后血运">
@@ -1617,6 +1638,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#吐血、鼻血、下血 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#吐血、鼻血、下血">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>黄芩一两，研末，每取三钱，加水一碗，煎至六分，和渣一起温服。</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#君迁子（牛奶柿） -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#君迁子（牛奶柿）">
@@ -2001,6 +2037,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#其他"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄蜂">
@@ -2092,6 +2136,21 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#妇产相关">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#妇女绝经期的年龄已过，仍有月经或月经过多 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#妇女绝经期的年龄已过，仍有月经或月经过多">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#妇产相关"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用黄芩心二两，浸淘米水中七天，取出炙干再浸，如此七次，研细，加醋加糊做成丸子，如梧子大。每服七十丸，空腹服，温酒送下。一天服二次。</药方描述>
     </owl:Class>
     
 
@@ -2223,6 +2282,33 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#安石榴花">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#安石榴"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#安胎清热 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#安胎清热">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#妇产相关"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#白术"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#米汤"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用黄芩、白术，等分为末，调米汤做成丸子，如梧子大。每服五十丸，开水下。药中加神曲亦可。</药方描述>
     </owl:Class>
     
 
@@ -3279,6 +3365,27 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#景天花">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#景天"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#暴泻、大渴、大饮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#暴泻、大渴、大饮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#甘草"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦？（草九）（第五卷第24章）"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用秦九二两、炙甘草半两，每服三钱，水煎服。</药方描述>
     </owl:Class>
     
 
@@ -5731,6 +5838,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#淡豉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#淡豉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#其他"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#清明水和谷雨水 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#清明水和谷雨水">
@@ -7692,6 +7807,39 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#男子五劳七伤、消渴不生肌肉，妇女带下、手足寒热 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#男子五劳七伤、消渴不生肌肉，妇女带下、手足寒热">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#大黄"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>宜服&quot;三黄丸&quot;。
+随季节不同，黄芩、大黄、黄连三药的用量也不同。
+春季用量是：四两三两四两；
+夏季用量是：六两一两七两；
+秋季用量是：六两三两三两；
+冬季用量是：三两五两二两。
+配好后捣碎和蜜做成丸子，如乌豆大。每服五丸，渐增至七丸。一天服三次。一月后病愈。久服使人健壮。</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#畜类 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#畜类">
@@ -8554,6 +8702,34 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦龟肉">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦龟"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦？（草九）（第五卷第24章） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦？（草九）（第五卷第24章）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#草部"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#味苦"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#性平"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#具有药性气味"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#无毒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <名词解释>也称秦爪</名词解释>
+        <药效治疗>寒热邪气，寒湿风痹，肢节痛，下水利小便。疗风无问久新，通身挛急。传尸骨蒸，治疳及时气。牛乳点服，利大小便，疗酒黄、黄疸，解酒毒，去头风。除阳明风湿，及手足不遂，口噤牙痛口疮，肠风泻血，养血荣筋。泻效益胆气。治胃热虚劳发热。</药效治疗>
     </owl:Class>
     
 
@@ -9488,6 +9664,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肝热生？（黄芩药方4） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肝热生？（黄芩药方4）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#淡豉"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#猪肝"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用黄芩一两、淡豉三两，共研为末。每服三钱，以熟猪肝裹着吃，温汤送下。一天服二次。忌食酒、面。</药方描述>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肤热如火烧，骨蒸（结核）咳嗽等 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肤热如火烧，骨蒸（结核）咳嗽等">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用黄芩一两，加水二杯，煎成一杯，一次服下。</药方描述>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺热喉痛 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#肺热喉痛">
@@ -9801,6 +10019,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <药方描述>用白术研细，每取一茶匙，白水送下。</药方描述>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#胸部积热 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#胸部积热">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄檗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄连"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用黄芩、黄连、黄檗，等分为末。将蒸饼做成丸子，如梧子大。每服二三十丸，开水送下。此方名&quot;三补丸&quot;。</药方描述>
     </owl:Class>
     
 
@@ -11855,6 +12100,21 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#蟹">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#血淋热毒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#血淋热毒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄岑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用黄芩一两，水煎，热服。</药方描述>
     </owl:Class>
     
 
@@ -15823,6 +16083,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#麦门冬 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#麦门冬">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#其他"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#麻仁 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#麻仁">
@@ -15956,6 +16224,28 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄瓜菜">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#菜部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄疸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#黄疸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#药方"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#牛乳"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#成分"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/4/medica#秦？（草九）（第五卷第24章）"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <药方描述>用秦九一两，浸酒半升中，空腹饮酒。有酒量的人服后易见效。
+又方：秦九三两，牛乳一升，煮成七合，作两次服下。</药方描述>
     </owl:Class>
     
 
